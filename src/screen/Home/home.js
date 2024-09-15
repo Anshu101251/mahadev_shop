@@ -60,7 +60,7 @@ const Home = () => {
             <a href="contact.html">
               <i className="fab fa-instagram" />
             </a>
-            <a href="#">
+            <a href="/#">
               <i className="fab fa-pinterest-p" />
             </a>
           </div>
@@ -81,7 +81,7 @@ const Home = () => {
                 data-aos-offset={50}
               >
                 <span className="sub-title mb-35">
-                  <i className="far fa-hamburger" /> Start price Only $25
+                  <i className="far fa-hamburger" /> Start price Only ₹25
                 </span>
                 <h1>delicious Sweet near your town</h1>
                 <p>
@@ -146,16 +146,16 @@ const Home = () => {
               <li className="active" data-filter="*">
                 Show All
               </li>
-              <li data-filter=".juice">Orange Juice</li>
-              <li data-filter=".shakes">Milk Shakes</li>
-              <li data-filter=".coffee">Coffee</li>
-              <li data-filter=".ice-cream">Ice-cream</li>
+              <li data-filter=".juice">Matka Sweet</li>
+              <li data-filter=".shakes">Rasagulla</li>
+              <li data-filter=".coffee">Rasmalai</li>
+              <li data-filter=".ice-cream">Burfi</li>
             </ul>
             <div className="row product-filter-active">
               <div className="col-xl-3 col-lg-4 col-sm-6 item shakes ice-cream">
                 <div className="product-item-two">
                   <div className="image">
-                    <img src="assets/images/sweet/rasmalai.avif" alt="Food" />
+                    <img src="assets/images/sweet/rasmalai.png" alt="Food" />
                     <span className="pizza-badge">-10%</span>
                   </div>
                   <div className="content">
@@ -168,10 +168,10 @@ const Home = () => {
                       <span>(5k)</span>
                     </div>
                     <h5>
-                      <a href="product-details.html">fresh chicken burger</a>
+                      <a href="product-details.html">Yellow Rasmalai</a>
                     </h5>
                     <span className="price">
-                      <del>$50</del> $25
+                      <del>₹50</del> ₹25
                     </span>
                   </div>
                 </div>
@@ -179,7 +179,11 @@ const Home = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 item juice coffee">
                 <div className="product-item-two">
                   <div className="image">
-                    <img src="assets/images/food/filter-food2.jpg" alt="Food" />
+                    <img
+                      src="assets/images/sweet/kaju-katli.webp"
+                      alt="Food"
+                      height="152px"
+                    />
                   </div>
                   <div className="content">
                     <div className="ratting">
@@ -191,10 +195,10 @@ const Home = () => {
                       <span>(5k)</span>
                     </div>
                     <h5>
-                      <a href="product-details.html">fresh chicken burger</a>
+                      <a href="product-details.html">Kaju Katli</a>
                     </h5>
                     <span className="price">
-                      <del>$50</del> $25
+                      <del>₹50</del> ₹25
                     </span>
                   </div>
                 </div>
@@ -202,7 +206,7 @@ const Home = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 item shakes coffee ice-cream">
                 <div className="product-item-two">
                   <div className="image">
-                    <img src="assets/images/food/filter-food3.jpg" alt="Food" />
+                    <img src="assets/images/sweet/Rasagulla.png" alt="Food" />
                     <span className="pizza-badge">hot</span>
                   </div>
                   <div className="content">
@@ -215,10 +219,10 @@ const Home = () => {
                       <span>(5k)</span>
                     </div>
                     <h5>
-                      <a href="product-details.html">fresh chicken burger</a>
+                      <a href="product-details.html">White Rasagulla</a>
                     </h5>
                     <span className="price">
-                      <del>$50</del> $25
+                      <del>₹50</del> ₹25
                     </span>
                   </div>
                 </div>
@@ -226,7 +230,11 @@ const Home = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 item juice ice-cream">
                 <div className="product-item-two">
                   <div className="image">
-                    <img src="assets/images/food/filter-food4.jpg" alt="Food" />
+                    <img
+                      src="assets/images/sweet/gulab-janum.jpg"
+                      alt="Food"
+                      height="152px"
+                    />
                   </div>
                   <div className="content">
                     <div className="ratting">
@@ -238,10 +246,10 @@ const Home = () => {
                       <span>(5k)</span>
                     </div>
                     <h5>
-                      <a href="product-details.html">fresh chicken burger</a>
+                      <a href="product-details.html">Gulab Jamun</a>
                     </h5>
                     <span className="price">
-                      <del>$50</del> $25
+                      <del>₹50</del> ₹25
                     </span>
                   </div>
                 </div>
@@ -249,7 +257,11 @@ const Home = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 item shakes">
                 <div className="product-item-two">
                   <div className="image">
-                    <img src="assets/images/food/filter-food5.jpg" alt="Food" />
+                    <img
+                      src="assets/images/sweet/khoya-burfi.webp"
+                      alt="Food"
+                      height="152px"
+                    />
                   </div>
                   <div className="content">
                     <div className="ratting">
@@ -261,10 +273,10 @@ const Home = () => {
                       <span>(5k)</span>
                     </div>
                     <h5>
-                      <a href="product-details.html">fresh chicken burger</a>
+                      <a href="product-details.html">Khoya Burfi</a>
                     </h5>
                     <span className="price">
-                      <del>$50</del> $25
+                      <del>₹50</del> ₹25
                     </span>
                   </div>
                 </div>
@@ -272,7 +284,11 @@ const Home = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 item juice coffee">
                 <div className="product-item-two">
                   <div className="image">
-                    <img src="assets/images/food/filter-food6.jpg" alt="Food" />
+                    <img
+                      src="assets/images/sweet/milk-cake.webp"
+                      alt="Food"
+                      height="152px"
+                    />
                     <span className="pizza-badge">-10%</span>
                   </div>
                   <div className="content">
@@ -285,10 +301,10 @@ const Home = () => {
                       <span>(5k)</span>
                     </div>
                     <h5>
-                      <a href="product-details.html">fresh chicken burger</a>
+                      <a href="product-details.html">Milk Cake</a>
                     </h5>
                     <span className="price">
-                      <del>$50</del> $25
+                      <del>₹50</del> ₹25
                     </span>
                   </div>
                 </div>
@@ -296,7 +312,10 @@ const Home = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 item ice-cream juice">
                 <div className="product-item-two">
                   <div className="image">
-                    <img src="assets/images/food/filter-food7.jpg" alt="Food" />
+                    <img
+                      src="assets/images/sweet/motichur-laddu.png"
+                      alt="Food"
+                    />
                   </div>
                   <div className="content">
                     <div className="ratting">
@@ -308,10 +327,10 @@ const Home = () => {
                       <span>(5k)</span>
                     </div>
                     <h5>
-                      <a href="product-details.html">fresh chicken burger</a>
+                      <a href="product-details.html">Motichur Laddu</a>
                     </h5>
                     <span className="price">
-                      <del>$50</del> $25
+                      <del>₹50</del> ₹25
                     </span>
                   </div>
                 </div>
@@ -319,7 +338,11 @@ const Home = () => {
               <div className="col-xl-3 col-lg-4 col-sm-6 item coffee shakes">
                 <div className="product-item-two">
                   <div className="image">
-                    <img src="assets/images/food/filter-food8.jpg" alt="Food" />
+                    <img
+                      src="assets/images/sweet/matka-kulfi.jpg"
+                      alt="Food"
+                      height="152px"
+                    />
                   </div>
                   <div className="content">
                     <div className="ratting">
@@ -331,10 +354,10 @@ const Home = () => {
                       <span>(5k)</span>
                     </div>
                     <h5>
-                      <a href="product-details.html">fresh chicken burger</a>
+                      <a href="product-details.html">Matka Kulfi</a>
                     </h5>
                     <span className="price">
-                      <del>$50</del> $25
+                      <del>₹50</del> ₹25
                     </span>
                   </div>
                 </div>
@@ -496,9 +519,14 @@ const Home = () => {
               <img src="assets/images/offer/good-food.png" alt="Good Food" />
               <div className="badge">Hot</div>
               <div className="image">
-                <img src="assets/images/offer/offer-card3.png" alt="Food" />
+                <img
+                  src="assets/images/sweet/sweets.png"
+                  alt="Food"
+                  width="230px"
+                  height="220px"
+                />
               </div>
-              <span className="title">hotdog</span>
+              <span className="title">Sweets</span>
               <span className="available-item">35+ Burger menu items</span>
               <div className="bg-text">
                 <span>hotdog</span> <span>hotdog</span> <span>hotdog</span>
@@ -516,9 +544,9 @@ const Home = () => {
               <img src="assets/images/offer/good-food.png" alt="Good Food" />
               <div className="badge">-15%</div>
               <div className="image">
-                <img src="assets/images/offer/offer-card4.png" alt="Food" />
+                <img src="assets/images/sweet/samosa.png" alt="Food" />
               </div>
-              <span className="title">chickens</span>
+              <span className="title">Samosa</span>
               <span className="available-item">35+ Burger menu items</span>
               <div className="bg-text">
                 <span>chickens</span> <span>chickens</span>
@@ -538,9 +566,9 @@ const Home = () => {
               <img src="assets/images/offer/good-food.png" alt="Good Food" />
               <div className="badge">Hot</div>
               <div className="image">
-                <img src="assets/images/offer/offer-card5.png" alt="Food" />
+                <img src="assets/images/sweet/chowmein.png" alt="Food" />
               </div>
-              <span className="title">seafood</span>
+              <span className="title">Chowmein</span>
               <span className="available-item">35+ Burger menu items</span>
               <div className="bg-text">
                 <span>seafood</span> <span>seafood</span> <span>seafood</span>
@@ -570,10 +598,10 @@ const Home = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img src="assets/images/offer/delicious.png" alt="Image" />
+                <img src="assets/images/offer/delicious.png" alt="delicious" />
                 <h2>Special deal offer for this week</h2>
                 <h3>
-                  grilled beef meat only <span>$59</span>
+                  Hot Fresh Samosa and Jalebi <span>₹59</span>
                 </h3>
                 <p>
                   Restaurant, where culinary excellence meets warm hospitality
@@ -592,10 +620,7 @@ const Home = () => {
                 data-aos-duration={1500}
                 data-aos-offset={50}
               >
-                <img
-                  src="assets/images/offer/offer-img.png"
-                  alt="Offer Image"
-                />
+                <img src="assets/images/sweet/samosa-jalebi.png" alt="Offer" />
                 <div
                   className="offer-badge"
                   style={{
@@ -605,7 +630,7 @@ const Home = () => {
                 >
                   <span>
                     only <br />
-                    <span className="price">$59</span>
+                    <span className="price">₹59</span>
                   </span>
                 </div>
               </div>
@@ -656,11 +681,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$25</span>
+                    <span>₹25</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item">
@@ -670,11 +695,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$10</span>
+                    <span>₹10</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item">
@@ -684,11 +709,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$22</span>
+                    <span>₹22</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item">
@@ -698,11 +723,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$43</span>
+                    <span>₹43</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item mb-30">
@@ -712,11 +737,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$77</span>
+                    <span>₹77</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
             </div>
@@ -734,11 +759,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$25</span>
+                    <span>₹25</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item">
@@ -748,11 +773,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$10</span>
+                    <span>₹10</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item">
@@ -762,11 +787,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$22</span>
+                    <span>₹22</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item">
@@ -776,11 +801,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$43</span>
+                    <span>₹43</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item mb-30">
@@ -790,11 +815,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$77</span>
+                    <span>₹77</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
             </div>
@@ -812,11 +837,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$25</span>
+                    <span>₹25</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item">
@@ -826,11 +851,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$10</span>
+                    <span>₹10</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item">
@@ -840,11 +865,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$22</span>
+                    <span>₹22</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item">
@@ -854,11 +879,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$43</span>
+                    <span>₹43</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
               <div className="food-item mb-30">
@@ -868,11 +893,11 @@ const Home = () => {
                     <p>Native to the icy waters of the Pacific</p>
                   </div>
                   <div className="price">
-                    <span>$77</span>
+                    <span>₹77</span>
                   </div>
                 </div>
                 <div className="image">
-                  <img src="assets/images/food/food1.png" alt="Food Image" />
+                  <img src="assets/images/food/food1.png" alt="Food" />
                 </div>
               </div>
             </div>
