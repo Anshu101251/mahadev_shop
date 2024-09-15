@@ -8439,3 +8439,8 @@ blockquote {
   top: -65px;
   color: var(--heading-color);
   background-image: url(../images/shapes/scroll-top-yellow-bg.png); }
+
+
+.logo img {
+  max-width: 150px;
+}
