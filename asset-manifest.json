@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mahadev_shop/static/css/main.e6c13ad2.css",
+    "main.js": "/mahadev_shop/static/js/main.efd0d24e.js",
+    "static/js/453.43bcd10d.chunk.js": "/mahadev_shop/static/js/453.43bcd10d.chunk.js",
+    "index.html": "/mahadev_shop/index.html",
+    "main.e6c13ad2.css.map": "/mahadev_shop/static/css/main.e6c13ad2.css.map",
+    "main.efd0d24e.js.map": "/mahadev_shop/static/js/main.efd0d24e.js.map",
+    "453.43bcd10d.chunk.js.map": "/mahadev_shop/static/js/453.43bcd10d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.efd0d24e.js"
+  ]
+}
